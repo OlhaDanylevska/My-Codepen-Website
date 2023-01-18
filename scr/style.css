@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  background-color: black;
+  background-size: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial;
+  color: white;
+  margin-top: 50px;
+}
+p {
+  text-align: center;
+  font-size: 12pt;
+  margin-top: -10px;
+  font-family: Arial;
+  color: white;
+}
+
+form {
+  background-color: rgba(18, 27, 100, 0.6);
+  border-radius: 8px;
+  position: relative;
+  padding: 2em;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#name-label {
+  font-family: Arial;
+  color: white;
+}
+#email-label {
+  font-family: Arial;
+  color: white;
+}
+#number-label {
+  font-family: Arial;
+  color: white;
+}
+
+#name {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 300px;
+  height: 35px;
+  margin: 7px;
+  padding-left: 10px;
+}
+
+#email {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 300px;
+  height: 35px;
+  margin: 10px;
+  padding-left: 10px;
+}
+
+#number {
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 300px;
+  height: 35px;
+  margin: 7px;
+  padding-left: 10px;
+}
+#Age {
+  color: white;
+  font-family: Arial;
+}
+#dropdown {
+  border: 1px solid black;
+  border-radius: 3px;
+  width: 80px;
+  height: 35px;
+  margin: 10px;
+}
+
+#Language {
+  color: white;
+  font-family: Arial;
+}
+
+#radio_lg {
+  padding: 1em;
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  font-size: 11pt;
+}
+
+#Country {
+  color: white;
+  font-family: Arial;
+}
+
+#vehicle1 {
+  color: white;
+  font-family: Arial;
+}
+
+#vehicle_all {
+  color: white;
+  font-family: Arial;
+  padding: 1em;
+  text-align: center;
+  font-size: 11pt;
+}
+
+#textarea {
+  color: white;
+  font-family: Arial;
+}
+
+textarea[name="comment"] {
+  width: 400px;
+  height: 100px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#submit {
+  width: 100px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: green;
+  border-color: green;
+  color: white;
+  font-family: Arial;
+  font-size: 14px;
+}

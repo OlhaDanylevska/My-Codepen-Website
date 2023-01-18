@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - customer survey form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body background="https://d33wubrfki0l68.cloudfront.net/b4759e96fa9ada8ee8caa4c771fcd503f289d791/6de77/static/triangle_background-9df4fa2e10f0e294779511e99083c2bc.jpg">
+  <h1 id="title"> Customer Survey Form
+  </h1><br>
+
+  <p id="description"> Thank you for taking the time to help us improve the platform</p><br>
+
+  <form id="survey-form">
+    <div id="inside_form">
+
+      <label id="name-label"> Name </label><br>
+      <input type="text" id="name" placeholder="Enter your name" required minlength="2" maxlength="20"><br>
+
+      <label id="email-label"> E-mail </label><br>
+      <input id="email" type="email" required placeholder="Enter your e-male"><br>
+
+      <label id="number-label"> Telephone number </label><br>
+      <input id="number" type="number" required min="2" max="20" placeholder="Enter your phone number"><br>
+
+      <lable id="Age">Your age</lable><br>
+      <select id="dropdown">
+        <option id="1" value="age">18</option>
+        <option id="2" value="age">19</option>
+        <option id="3" value="age">20</option>
+      </select><br>
+
+      <lable id="Language">What language do you speak</lable><br>
+
+      <div id="radio_lg">
+        <input type="radio" name="fav_language" value="English">English</input><br>
+        <input type="radio" name="fav_language" value="Spanish">Spanish</input><br>
+        <input type="radio" name="fav_language" value="French">French
+        </input><br>
+      </div>
+
+      <lable id="Country">What country are you from</lable><br>
+      <div id="radio_lg">
+        <input type="radio" name="country_live" value="GB">Greate Britane</input><br>
+        <input type="radio" name="country_live" value="Spain">Spain</input><br>
+        <input type="radio" name="country_live" value="France">France</input><br>
+      </div>
+
+      <lable id="vehicle1">What type of vehicle do you have</lable><br>
+      <div id="vehicle_all">
+        <input type="checkbox" id="vehicle1" value="Car">
+        <lable for="vehicle1">Car</lable><br>
+        <input type="checkbox" id="vehicle2" value="bike">
+        <lable for="vehicle2">Bike</lable><br>
+        <input type="checkbox" id="vehicle3" value="Motorcicle">
+        <lable for="vehicle3">Motorcicle</lable>
+      </div>
+    </div>
+
+    <lable id="textarea">Do you have any questions?</lable><br><br>
+
+    <div id="comments">
+      <textarea name="comment">Leave your commet here</textarea>
+    </div><br>
+
+    <button id="submit">SUBMIT</button>
+
+  </form>
+</body>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
